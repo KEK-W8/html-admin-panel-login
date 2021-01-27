@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78.086" height="16.14" viewBox="0 0 78.086 16.14">
+  <g id="Group_559" data-name="Group 559" transform="translate(-52.667 -183)">
+    <path id="Subtraction_1" data-name="Subtraction 1" d="M2.913,15.986H0V8.2A8.346,8.346,0,0,1,2.049,2.145,8.256,8.256,0,0,1,8.2,0h7.788V2.941L8.3,2.869c-3.4,0-5.345,1.968-5.345,5.4l-.039,7.717Z" transform="translate(52.667 183.154)" fill="#fff"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="8.3" height="2.767" transform="translate(57.585 189.61)" fill="#fff"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="3.382" height="15.986" transform="translate(71.112 183.154)" fill="#fff"/>
+    <g id="surface1" transform="translate(77.254 183)">
+      <path id="Path_1" data-name="Path 1" d="M13.969,10.333a.285.285,0,0,1,.132.075l4.07,4.07.737-.736-4.07-4.07a.286.286,0,0,1-.075-.132l-.256-1.021-1.7-.971-.832.832.971,1.7Zm0,0" transform="translate(-11.868 -7.476)" fill="#fff"/>
+      <path id="Path_2" data-name="Path 2" d="M6.095,12.142l6.459-6.459a.285.285,0,0,1,.27-.075A2.833,2.833,0,0,0,16.36,2.849c0-.053,0-.107-.005-.162l-1.5,1.5a.285.285,0,0,1-.291.069l-1.709-.57a.284.284,0,0,1-.18-.18L12.1,1.8a.284.284,0,0,1,.069-.291l1.5-1.5a2.834,2.834,0,0,0-2.921,3.531.285.285,0,0,1-.075.271L4.219,10.266a.287.287,0,0,1-.271.075,2.806,2.806,0,0,0-.688-.089A2.867,2.867,0,1,0,6.02,12.412.285.285,0,0,1,6.095,12.142Zm-2.141,2.1H2.568L1.884,13.1l.684-1.139H3.954L4.637,13.1Zm1.1-3.334,6.265-6.265.4.4L5.455,11.308Zm0,0" transform="translate(-0.375 -0.001)" fill="#fff"/>
+      <path id="Path_3" data-name="Path 3" d="M1459.5,1457.364a1.727,1.727,0,0,0,2.224-2.224Zm0,0" transform="translate(-1445.849 -1441.527)" fill="#fff"/>
+      <path id="Path_4" data-name="Path 4" d="M876.732,869.854l-3.2-3.2a.889.889,0,0,1-1.253-1.251l-.453-.453-2.445,2.445.456.456a.889.889,0,0,1,1.253,1.251l3.2,3.2c.035.035.072.067.109.1l2.435-2.435C876.8,869.925,876.767,869.888,876.732,869.854Zm-1.688,1.159-2.848-2.848.4-.4,2.848,2.848Zm0,0" transform="translate(-861.253 -856.857)" fill="#fff"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(95.706 183.154)">
+      <path id="Subtraction_3" data-name="Subtraction 3" d="M16.293,15.986h-8.3A7.993,7.993,0,0,1,7.993,0h8.3V2.869H8.383a5.124,5.124,0,1,0,0,10.247h7.91v2.868Z" transform="translate(0 0)" fill="#fff"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="8.3" height="2.767" transform="translate(8.3 6.456)" fill="#fff"/>
+    </g>
+    <g id="Group_1" data-name="Group 1" transform="translate(114.765 183.154)">
+      <path id="Subtraction_5" data-name="Subtraction 5" d="M14.96,9.018H11.738l.054-1.029a5.344,5.344,0,0,0-1.259-3.672,4.758,4.758,0,0,0-3.4-1.76L0,2.443A7.95,7.95,0,0,1,5.761,0H7.007a8.024,8.024,0,0,1,8.015,8.015,8.106,8.106,0,0,1-.062,1Z" transform="translate(0.041 6.815)" fill="#fff"/>
+      <path id="Subtraction_7" data-name="Subtraction 7" d="M11.221,9.53H0V6.807H11.075a2.042,2.042,0,0,0,0-4.084H0V0H11.221a4.765,4.765,0,1,1,0,9.53Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
