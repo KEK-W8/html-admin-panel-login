@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
 html {
   font-size: 10px;
 }
@@ -29,8 +36,49 @@ header {
   background-color: var(--color-second);
   filter: drop-shadow(0px 3px 3.5px rgba(0, 0, 0, 0.3));
   overflow: hidden;
-  display: grid;
-  grid-template-columns: 8.3% 79.89% 11.7%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.logo {
+  width: 4vw;
+}
+
+img {
+  width: inherit;
+}
+
+ul {
+  display: flex;
+  flex: row;
+}
+
+li + li {
+  margin-left: 2vw;
+}
+
+li:before {
+  /* icons img 4 img 3*/
+}
+
+.navigation {
+  margin-left: 3.4vw;
+}
+
+.navigatio::before {
+  /* icons */
+}
+
+.account-info {
+  margin-left: 69vw;
+  margin-right: 4.5vw;
+}
+
+.account-info::before {
+  /* icons */
 }
 
 main {
