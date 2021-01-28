@@ -33,22 +33,27 @@ body {
 header {
   width: 100vw;
   height: 5.5vh;
+  min-height: 2.5rem;
   background-color: var(--color-second);
   filter: drop-shadow(0px 3px 3.5px rgba(0, 0, 0, 0.3));
   overflow: hidden;
   display: flex;
   flex-flow: row;
-  justify-content: flex-end;
   align-items: center;
   font-size: 1.4rem;
 }
 
 .logo {
   width: 4vw;
+  min-width: 4.5rem;
+  min-height: 1.19rem;
+  margin-left: 3.3vw;
 }
 
 img {
   width: inherit;
+  min-width: inherit ьшт-цшверЖ штрукшеж;
+  min-height: inherit;
 }
 
 ul {
@@ -56,7 +61,7 @@ ul {
   flex: row;
 }
 
-li + li {
+.nav-btn + .nav-btn {
   margin-left: 2vw;
 }
 
@@ -73,8 +78,8 @@ li:before {
 }
 
 .account-info {
-  margin-left: 69vw;
-  margin-right: 4.5vw;
+  margin-left: auto;
+  margin-right: 4.6vw;
 }
 
 .account-info::before {
@@ -83,15 +88,35 @@ li:before {
 
 main {
   height: 94.5vh;
+  min-height: 55rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .main-content {
   width: 93.8vw;
   height: 87.2vh;
+  min-height: 20rem;
+  min-width: 69rem;
   border-radius: 6px;
   background-color: var(--color-white);
   filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.2));
+  margin: 3.85vh auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.user-card {
+  width: 13.9vw;
+  height: 26.5vh;
+  background-color: var(--color-first);
+  border-radius: 11px;
+  border: 1px solid var(--color-second);
+}
+
+.anc-card {
+  width: 20rem;
+  height: 20rem;
+  background-color: var(--color-first);
+  border-radius: 11px;
+  border: 1px solid var(--color-second);
 }
