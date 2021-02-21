@@ -6,19 +6,16 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 10px;
-}
-
 :root {
   --color-white: #ffffff;
   --color-first: #f7f7fc;
-  --color-second: #0e6057;
+  --color-second: #3b59d7;
   --color-third: #a6a6a6;
 }
 
 body {
   height: 100vh;
+  min-height: 520px;
   background-color: var(--color-first);
   font-family: Gotham Pro;
   display: flex;
@@ -27,8 +24,8 @@ body {
 }
 
 .main-content {
-  width: 66vw;
-  height: 65vh;
+  width: 920px;
+  height: 520px;
   min-width: 500px;
   min-height: 260px;
   border-radius: 6px;
@@ -40,15 +37,13 @@ body {
 }
 
 .brand-logo {
-  width: 27%;
-  min-width: 160px;
-  min-height: 40px;
+  width: 250px;
   margin-left: auto;
 }
 
 form {
-  width: 25%;
-  height: 38%;
+  width: 230px;
+  height: 190px;
   margin: 0 auto 0 auto;
 }
 
@@ -62,52 +57,71 @@ fieldset {
 
 input {
   width: 100%;
-  height: calc((100% - 10%) / 3);
-  min-height: 30px;
+  height: calc((100% - 20px) / 3);
   border-radius: 10px;
   filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.2));
   background-color: var(--color-white);
+  transition-duration: 275ms;
 }
 
 input + input {
   margin-top: 6%;
 }
 
-input[type="email"],
+input::placeholder {
+  color: var(--color-third);
+}
+
+input[type="text"],
 input[type="password"] {
   border: 1px solid var(--color-white);
   padding-left: 10px;
 }
 
-input::placeholder {
-  color: var(--color-third);
-}
-
 input[type="submit"] {
-  border: none;
+  border: 1.5px solid var(--color-second);
   border-radius: 10px;
   background-color: var(--color-second);
   filter: drop-shadow(3.914px 5.803px 3.5px rgba(0, 0, 0, 0.2));
-  size: 2.1rem;
+  size: 21px;
   font-weight: bold;
   color: var(--color-white);
 }
 
-input[type="email"]:hover,
+input[type="text"]:hover,
 input[type="password"]:hover {
-  cursor: pointer;
-  border: 1px solid grey;
-  transition-duration: 0.3s;
+  cursor: auto;
+  border: 1px solid var(--color-second);
 }
 
 input[type="submit"]:hover {
   cursor: pointer;
-  opacity: 0.8;
-  transition-duration: 0.3s;
-  background-color: var(--color-second);
-  text-shadow: black 0 0 2px;
+  background-color: var(--color-white);
+  color: var(--color-second);
+  border: 1.2px solid var(--color-second);
 }
 
 input:focus {
+  border: 1px solid var(--color-second);
   outline: none;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    min-width: 0;
+    min-height: 0;
+  }
+  .main-content {
+    width: 100vw;
+    height: 100vh;
+    min-height: 400px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .brand-logo {
+    width: 250px;
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
 }
